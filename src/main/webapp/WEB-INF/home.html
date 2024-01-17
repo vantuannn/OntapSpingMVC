@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head lang="en" xmlns:th="http://www.thymleaf.org">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<form th:action="@{/home/calculator}" method="get">
+    <input type="number" name="number1" placeholder="number1...">
+    <br>
+    <input type="number" name="number2" placeholder="number2...">
+    <br>
+    <button type="submit">Calculator</button>
+</form>
+</body>
+</html>
